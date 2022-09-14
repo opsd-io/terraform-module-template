@@ -21,3 +21,6 @@
 
 ## MacOS
 **/.DS_Store
+**/.CFUserTextEncoding
+**/.Trash/
+**/$RECYCLE.BIN/
