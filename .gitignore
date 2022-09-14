@@ -1,18 +1,23 @@
 # Terraform
-*.terraform*
-terraform.tfstate
-terraform.tfstate.*.backup*
-plan*.out
+
+## local directories
+.terraform*/
+.terraform/
+
+# lock & state files
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
 
 # Code Editors
 
-# VI
+## VI
 *.swp
 
-# Visual Studio Code
+## Visual Studio Code
 *.code-workspace
 
 # Misc
 
-# MacOS
+## MacOS
 **/.DS_Store
