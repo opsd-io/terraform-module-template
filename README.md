@@ -1,4 +1,11 @@
 # terraform-module-template
+
+## ToDo
+- install (using brew or else):
+  - tflint
+  - asdf
+  - dotenv
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
