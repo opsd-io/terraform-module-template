@@ -13,6 +13,8 @@ repos:
         stages: [commit]
       - id: check-symlinks
         stages: [commit]
+      - id: mixed-line-ending
+        stages: [commit]
 
   # Terraform
   - repo: https://github.com/antonbabenko/pre-commit-terraform
