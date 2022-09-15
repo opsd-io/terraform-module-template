@@ -1,5 +1,7 @@
 # terraform-module-template
 
+<img alt="OPSd" src=".github/OPSD_logo.svg" width="400px">
+
 ## ToDo
 - install (using brew or else):
   - tflint
