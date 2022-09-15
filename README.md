@@ -5,12 +5,6 @@
 Website: <a href="https://www.opsd.io" target="_blank">https://www.opsd.io</a>
 Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## ToDo
-- install (using brew or else):
-  - tflint
-  - asdf
-  - dotenv
-
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
