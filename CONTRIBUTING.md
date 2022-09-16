@@ -90,8 +90,6 @@ The below diagram shows a typical terraform module repo structure. To not reinve
 │   ├── .../
 ```
 
-**Important**: The module should provide at least one example to demonstrate the usage. The example should be tested and updated whenever a new change is introduced in the module.
-
 ## Pre-commit hooks
 
 The repository has pre-commit hooks configured:
@@ -100,3 +98,7 @@ The repository has pre-commit hooks configured:
 - `terraform-validate`: native Terraform command that validates the configuration files;
 - `terraform-lint`: a framework to find possible errors, warn about deprecated syntax, unused declarations, enforce best practices and naming conventions;
 - `terraform-docs`: generates Terraform module documentation.
+
+## Module usage example(s)
+
+**Important**: The module should provide at least one example to demonstrate the usage. The example should be tested and updated whenever a new change is introduced in the module.
