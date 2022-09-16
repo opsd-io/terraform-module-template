@@ -64,7 +64,35 @@ direnv: export ~PATH
 ```
 **Notice**: output will vary depending on directory in which you run it.
 
-### Pre-commit hooks
+## Repository structure
+
+The below diagram shows a typical terraform module repo structure. To not reinvent the wheel, we adopted the [schema](https://www.terraform.io/language/modules/develop/structure) proposed by Terraform team.
+
+```
+.
+├── README.md
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── ...
+├── modules/
+│   ├── nestedA/
+│   │   ├── README.md
+│   │   ├── variables.tf
+│   │   ├── main.tf
+│   │   ├── outputs.tf
+│   ├── nestedB/
+│   ├── .../
+├── examples/
+│   ├── exampleA/
+│   │   ├── main.tf
+│   ├── exampleB/
+│   ├── .../
+```
+
+**Important**: The module should provide alteast one example to demostrate the usage. The example should be tested and updated whenever a new change is introduced in the module.
+
+## Pre-commit hooks
 
 The repository has pre-commit hooks configured:
 
