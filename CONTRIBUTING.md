@@ -90,7 +90,7 @@ The below diagram shows a typical terraform module repo structure. To not reinve
 │   ├── .../
 ```
 
-**Important**: The module should provide alteast one example to demostrate the usage. The example should be tested and updated whenever a new change is introduced in the module.
+**Important**: The module should provide at least one example to demonstrate the usage. The example should be tested and updated whenever a new change is introduced in the module.
 
 ## Pre-commit hooks
 
