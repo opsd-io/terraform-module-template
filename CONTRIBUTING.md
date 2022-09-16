@@ -3,7 +3,7 @@
 First, we are glad you are interested in contributing to our project.
 Below you will find the information you need to get started.
 
-## Requirements
+## Tools
 
 For local development and executing the code, you need a few things:
 
@@ -63,3 +63,12 @@ direnv: loading .envrc
 direnv: export ~PATH
 ```
 **Notice**: output will vary depending on directory in which you run it.
+
+### Pre-commit hooks
+
+The repository has pre-commit hooks configured:
+
+- `terraform-fmt`: rewrites Terraform configuration files to a canonical format and style;
+- `terraform-validate`: native Terraform command that validates the configuration files;
+- `terraform-lint`: a framework to find possible errors, warn about deprecated syntax, unused declarations, enforce best practices and naming conventions;
+- `terraform-docs`: generates Terraform module documentation.
