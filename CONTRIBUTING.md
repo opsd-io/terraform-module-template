@@ -102,3 +102,7 @@ The repository has pre-commit hooks configured:
 ## Module usage example(s)
 
 **Important**: The module should provide at least one example to demonstrate the usage. The example should be tested and updated whenever a new change is introduced in the module.
+
+## Versioning
+
+The module should be tagged using SemVer and a changelog. Use the [semantic commits](https://www.conventionalcommits.org/en/v1.0.0/) so that we can auto-generate the changelog.
