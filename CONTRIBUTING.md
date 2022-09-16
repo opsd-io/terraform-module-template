@@ -99,7 +99,7 @@ The repository has pre-commit hooks configured:
 - `terraform-lint`: a framework to find possible errors, warn about deprecated syntax, unused declarations, enforce best practices and naming conventions;
 - `terraform-docs`: generates Terraform module documentation.
 
-## Module usage example(s)
+## Example(s) of module usage
 
 **Important**: The module should provide at least one example to demonstrate the usage. The example should be tested and updated whenever a new change is introduced in the module.
 
