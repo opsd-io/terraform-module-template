@@ -1,6 +1,7 @@
-# Contributing to terraform modules
+# Contributing
 
-First, we are glad you are interested in contributing to our project. Below you will find the information you need to get started.
+First, we are glad you are interested in contributing to our project.
+Below you will find the information you need to get started.
 
 ## Requirements
 
@@ -35,17 +36,15 @@ tflint 0.40.0 is already installed
 
 **Important**: Please keep in mind the versions or tools themselves might change, so it is advised to rerun `asdf install` command after pulling from git.
 
-If you are looking for additonal plugin(s) use:
+After the installation process, all the tools will be installed. You can verify this by executing
 
 ```shell
-% asdf plugin list all
+% terraform --version
+Terraform v1.2.9
+on darwin_amd64
 ```
 
-Adding plugins is also very simple:
-
-```shell
-asdf plugin add <name>
-```
+in the project directory.
 
 More information and examples can be found in the ASDF project [documentation](https://asdf-vm.com/manage/plugins.html).
 
