@@ -17,3 +17,7 @@ To help us diagnose the problem, please provide additional information.
 ### Steps to reproduce
 
 ### Expected behavior
+
+### References
+
+Are there other open or closed issues or Pull Requests that match your issue?
