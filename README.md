@@ -2,6 +2,18 @@
 
 <a href="https://www.opsd.io" target="_blank"><img alt="OPSd" src=".github/img/OPSD_logo.svg" width="200px"></a>
 
+## Introduction
+
+What does the module provide?
+
+## Usage
+
+The example of module usage.
+
+## Related modules
+
+The list of related modules.
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
