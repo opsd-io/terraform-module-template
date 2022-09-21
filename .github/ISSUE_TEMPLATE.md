@@ -1,6 +1,6 @@
-## Important
+## Before we go any further
 
-First of all, thank you for opening an issue. This particular issue tracker is reserved only for reporting bugs or feature requests.
+Thank you for opening an issue. This particular issue tracker is reserved only for reporting bugs or feature requests.
 
 All the general questions can be submitted on our community [Slack](https://join.slack.com/t/opsd-community/signup).
 
@@ -8,12 +8,12 @@ All the general questions can be submitted on our community [Slack](https://join
 
 To help us diagnose the problem, please provide additional information.
 
-### Actual Behavior
+### Actual behavior
 
 ### Error output
 
 ### Terraform configuration files
 
-### Steps to Reproduce
+### Steps to reproduce
 
 ### Expected behavior
