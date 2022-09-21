@@ -1,6 +1,6 @@
 # terraform-module-template
 
-<a href="https://www.opsd.io" target="_blank"><img alt="OPSd" src=".github/img/OPSD_logo.svg" width="140px" style="float:right"></a>
+<a href="https://www.opsd.io" target="_blank"><img alt="OPSd" src=".github/img/OPSD_logo.svg" width="140px"></a>
 
 ## Introduction
 
@@ -45,6 +45,11 @@ No outputs.
 ## Contributing
 
 [Contributing](CONTRIBUTING.md)
+
+## Support
+
+If you have a problem with the module or you want to propose a new feature, you can report it via the Github issue tracker.
+All the general questions can be submitted on our community [Slack](https://join.slack.com/t/opsd-community/signup).
 
 ## License
 
