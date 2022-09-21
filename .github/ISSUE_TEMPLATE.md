@@ -10,13 +10,21 @@ To help us diagnose the problem, please provide additional information.
 
 ### Actual behavior
 
+In a few words, describe the problem you are struggling with.
+
 ### Error output
 
-### Terraform configuration files
+Include the commands you are using and the error message itself.
+
+**Important**: If the output is huge - do not paste it here! Instead, please provide a link to GitHub Gist.
 
 ### Steps to reproduce
 
+Let us know how we may reproduce your issue.
+
 ### Expected behavior
+
+What is the expected resolution.
 
 ### References
 
