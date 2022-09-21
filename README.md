@@ -44,7 +44,7 @@ No outputs.
 
 ## Contributing
 
-[CONTRIBUTING.md](CONTRIBUTING.md)
+[Contributing](CONTRIBUTING.md)
 
 ## License
 
