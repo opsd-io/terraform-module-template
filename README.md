@@ -1,9 +1,6 @@
 # terraform-module-template
 
-<img alt="OPSd" src=".github/img/OPSD_logo.svg" width="250px">
-
-Website: <a href="https://www.opsd.io" target="_blank">https://www.opsd.io</a>
-Contributing: [CONTRIBUTING.md](CONTRIBUTING.md)
+<a href="https://www.opsd.io" target="_blank"><img alt="OPSd" src=".github/img/OPSD_logo.svg" width="200px"></a>
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -32,6 +29,10 @@ No inputs.
 
 No outputs.
 <!-- END_TF_DOCS -->
+
+## Contributing
+
+[CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## License
 
