@@ -48,8 +48,9 @@ No outputs.
 
 ## Support
 
-If you have a problem with the module or you want to propose a new feature, you can report it via the Github issue tracker.
-All the general questions can be submitted on our community [Slack](https://join.slack.com/t/opsd-community/signup).
+If you have a problem with the module or want to propose a new feature, you can report it via the Github issue tracker.
+
+If you want to discuss sth in person, you can join our community on [Slack](https://join.slack.com/t/opsd-community/signup).
 
 ## License
 
