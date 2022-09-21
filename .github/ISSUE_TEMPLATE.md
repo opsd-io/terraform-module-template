@@ -6,7 +6,7 @@ All the general questions can be submitted on our community [Slack](https://join
 
 ## What is required to submit a ticket?
 
-To help us diagnose the problem, please provide additional information.
+To help us diagnose the problem, please provide additional information like:
 
 ### Actual behavior
 
