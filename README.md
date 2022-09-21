@@ -50,7 +50,7 @@ No outputs.
 
 If you have a problem with the module or want to propose a new feature, you can report it via the project's (Github) issue tracker.
 
-If you want to discuss sth in person, you can join our community on [Slack](https://join.slack.com/t/opsd-community/signup).
+If you want to discuss something in person, you can join our community on [Slack](https://join.slack.com/t/opsd-community/signup).
 
 ## License
 
