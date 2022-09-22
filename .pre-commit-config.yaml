@@ -15,6 +15,12 @@ repos:
         stages: [commit]
       - id: mixed-line-ending
         stages: [commit]
+      - id: check-yaml
+        name: check yaml
+        description: checks yaml files for parseable syntax.
+        entry: check-yaml
+        language: python
+        types: [yaml]
 
   # Terraform
   - repo: https://github.com/antonbabenko/pre-commit-terraform
