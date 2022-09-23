@@ -1,0 +1,31 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  changelog:
+    exclude:
+      labels:
+        - ignore-for-release
+        - question
+        - wontfix
+        - duplicate
+        - help wanted
+        - invalid
+    #   authors:
+    #     - opsdbot
+    categories:
+      - title: Bug fixes
+        labels:
+          - bug
+      - title: New features
+        labels:
+          - enhancement
+      - title: Breaking changes
+        labels:
+          - breaking-change
+      - title: Other Changes
+        labels:
+          - "*"
