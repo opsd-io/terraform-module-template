@@ -34,7 +34,7 @@ repos:
       - id: terraform_validate
         stages: [commit]
         exclude: (examples)
-      - id: terraform_docs
-        args:
-          - --args=--config=.terraform-docs.yml
-        stages: [commit]
+      # - id: terraform_docs
+      #   args:
+      #     - --args=--config=.terraform-docs.yml
+      #   stages: [commit]
