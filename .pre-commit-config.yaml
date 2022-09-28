@@ -28,9 +28,9 @@ repos:
     hooks:
       - id: terraform_fmt
         stages: [commit]
-      - id: terraform_tflint
-        stages: [commit]
-        exclude: (examples)
+      # - id: terraform_tflint
+      #   stages: [commit]
+      #   exclude: (examples)
       - id: terraform_validate
         stages: [commit]
         exclude: (examples)
