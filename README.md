@@ -1,6 +1,6 @@
 # terraform-module-template
 
-<a href="https://www.opsd.io" target="_blank"><img alt="OPSd" src=".github/img/OPSD_logo.svg" width="140px"></a>
+<a href="https://www.opsd.io" target="_blank"><img alt="OPSd" src=".github/img/OPSD_logo.svg" width="150px"></a>
 
 ## Introduction
 
