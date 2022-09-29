@@ -28,13 +28,13 @@ repos:
     hooks:
       - id: terraform_fmt
         stages: [commit]
-      # - id: terraform_tflint
-      #   stages: [commit]
-      #   exclude: (examples)
+      - id: terraform_tflint
+        stages: [commit]
+        exclude: (examples)
       - id: terraform_validate
         stages: [commit]
         exclude: (examples)
-      # - id: terraform_docs
-      #   args:
-      #     - --args=--config=.terraform-docs.yml
-      #   stages: [commit]
+      - id: terraform_docs
+        args:
+          - --args=--config=.terraform-docs.yml
+        stages: [commit]
