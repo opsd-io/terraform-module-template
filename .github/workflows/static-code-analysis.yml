@@ -1,12 +1,12 @@
 name: Static code analysis
 
 on:
-  # pull_request:
+  pull_request:
+    paths-ignore:
+      - "**.svg"
+  # push:
   #   # paths-ignore:
   #   #   - "**.md"
-  push:
-    # paths-ignore:
-    #   - "**.md"
 
 jobs:
   tools:
