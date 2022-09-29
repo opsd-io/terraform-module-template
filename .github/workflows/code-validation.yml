@@ -1,0 +1,18 @@
+name: Static code validation
+
+on:
+  pull_request:
+    # paths-ignore:
+    #   - "**.md"
+  push:
+    # paths-ignore:
+    #   - "**.md"
+
+jobs:
+  asdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install required tools
+        uses: asdf-vm/actions/plugin-test@v1
+        with:
+          command: asdf install
