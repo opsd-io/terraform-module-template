@@ -1,9 +1,9 @@
 name: Static code analysis
 
 on:
-  pull_request:
-    # paths-ignore:
-    #   - "**.md"
+  # pull_request:
+  #   # paths-ignore:
+  #   #   - "**.md"
   push:
     # paths-ignore:
     #   - "**.md"
