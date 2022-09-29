@@ -31,11 +31,11 @@ version-resolver:
   minor:
     labels:
       - 'enhancement'
+      - 'chore'
   patch:
     labels:
       - 'bug'
       - 'documentation'
-      - 'chore'
 
 exclude-labels:
   - 'skip-changelog'
