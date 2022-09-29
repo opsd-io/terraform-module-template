@@ -5,14 +5,13 @@ In a few words, describe what changes your commits make to the code.
 ## Type of change
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
+- [ ] Chore (non-breaking change to the build process or auxiliary tools)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality not to work as expected)
 
 ## References
 
-Fixes: paste the issue link here
-
-Add any other links important from the point of view of your Pull Request here.
+Fixes:
 
 # Checklist:
 
