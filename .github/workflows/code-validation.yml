@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: Install required tools
+      - name: Install all the tools from .tool-versions file
         uses: asdf-vm/actions/install@v1
       - name: verify TF version
         run: terraform --version
