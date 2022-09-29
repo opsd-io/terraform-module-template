@@ -141,7 +141,7 @@ repos:
 
 The full hooks list can be found in the [.pre-commit-config.yaml](.pre-commit-config.yaml) file.
 
-**Important**: We're using **GitHub Actions** to trigger `pre-commit` checks on the **Pull Request**. The configuration file can be found in the in the `.github/workflows/`[static-code-analysis.yml](.github/workflows/static-code-analysis.yml) file.
+**Important**: We're using **GitHub Actions** to trigger `pre-commit` checks on the **Pull Request**. The configuration file can be found in the in the [static-code-analysis.yml](.github/workflows/static-code-analysis.yml) file.
 
 ## Versioning
 
