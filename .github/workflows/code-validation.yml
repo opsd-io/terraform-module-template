@@ -9,7 +9,7 @@ on:
     #   - "**.md"
 
 jobs:
-  asdf:
+  tools:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
