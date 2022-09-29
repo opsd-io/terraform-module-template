@@ -1,4 +1,4 @@
-name: Static code validation
+name: Static code analysis
 
 on:
   pull_request:
@@ -15,6 +15,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Install required tools
+        uses: asdf-vm/actions/install@v1
+      - name: Test TF version
         uses: asdf-vm/actions/plugin-test@v1
         with:
-          command: asdf install
+          command: terraform --version
