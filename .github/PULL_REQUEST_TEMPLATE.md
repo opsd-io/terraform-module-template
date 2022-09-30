@@ -7,6 +7,7 @@ In a few words, describe what changes your commits make to the code.
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] Chore (non-breaking change to the build process or auxiliary tools)
 - [ ] New feature (non-breaking change which adds functionality)
+- [ ] Documentation (Improvements or additions to documentation)
 - [ ] Breaking change (fix or feature that would cause existing functionality not to work as expected)
 
 ## References
