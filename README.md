@@ -46,7 +46,7 @@ No outputs.
 
 ## Contributing
 
-[Contributing](CONTRIBUTING.md)
+If you are interested in contributing to the project, see see our [guide](CONTRIBUTING.md).
 
 ## Support
 
