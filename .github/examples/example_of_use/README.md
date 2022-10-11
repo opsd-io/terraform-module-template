@@ -1,6 +1,6 @@
 # Example title
 
-Now, you need to initialize terraform.
+To start working with the module, you need to initialize terraform.
 
 ```shell
 terraform init
