@@ -1,13 +1,5 @@
 # Example title
 
-Before you start, you need to create a [GitHub token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) or use an existing one.
-
-Next, set the environment variable.
-
-```bash
-export GITHUB_TOKEN="ghp_your_github_token"
-```
-
 Now, you need to initialize terraform.
 
 ```shell
