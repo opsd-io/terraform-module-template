@@ -10,7 +10,18 @@ What does the module provide?
 
 ## Usage
 
-The example of module usage.
+```
+module "module_name" {
+  source  = "github.com/opsd-io/module_name"
+	version = ">= 0.1.0"
+
+  # Example variables
+}
+```
+
+**IMPORTANT**: Make sure not to pin to master because there may be breaking changes between releases.
+
+You can find more example [here](examples).
 
 ## Related modules
 
