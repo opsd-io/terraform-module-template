@@ -1,6 +1,10 @@
 # Example title
 
-To start working with the module, you need to initialize terraform.
+Before you start, you need to install Azure CLI according to the official [documentation](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
+
+Use the `az login` command to login to your Azure subscription.
+
+Next, to start working with the module, you need to initialize terraform.
 
 ```shell
 terraform init
