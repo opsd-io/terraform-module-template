@@ -12,28 +12,18 @@ Use the `az login` command to login to your Azure subscription.
 
 ### asdf and direnv
 
-All these tools must be installed and configured according to their official documentation.
+Additinaly `asdf` and `direnv` must be installed and configured according to their official documentation.
 
 - [asdf](https://asdf-vm.com/) -  manages multiple runtime versions;
 - [direnv](https://direnv.net/) - augments existing shells with a new feature that can load and unload environment variables.
 
 ### Terraform
 
-The suggested Terraform version is in the [.tool-versions](.tool-versions) file.
+The suggested Terraform version is defined in the [.tool-versions](.tool-versions) file.
 To install it, simply execute
 
 ```bash
 asdf install terraform
-```
-
-## Usage
-
-```hcl
-module "module_name" {
-  source  = "../../"
-
-  # Example variables
-}
 ```
 
 ## Terraforming infrastructure
