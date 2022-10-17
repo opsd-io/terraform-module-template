@@ -1,3 +1,4 @@
-# output "database_name" {
-#   value = postgresql_database.main.name
+# output "variable" {
+#   description = "output variable description"
+#   value       = variable.main.name
 # }
