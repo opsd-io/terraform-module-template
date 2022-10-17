@@ -16,12 +16,18 @@ module "module_name" {
   version = ">= 0.1.0"
 
   # Example variables
+  variable_name     = foo
+  variable_password = bar
 }
 ```
 
 **IMPORTANT**: Make sure not to pin to master because there may be breaking changes between releases.
 
-You can find more example [here](examples).
+You can find more examples [here](examples).
+
+## Module documentation
+
+The module documentation is available [here](docs/terraform_module.md).
 
 ## Related modules
 
