@@ -15,7 +15,7 @@ module "module_name" {
   source  = "github.com/opsd-io/module_name"
   version = ">= 0.1.0"
 
-  # Example variables
+  # Variables
   variable_name     = foo
   variable_password = bar
 }
