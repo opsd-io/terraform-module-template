@@ -1,10 +1,44 @@
 # Example title
 
+Brief description of an example.
+
+## Required tools
+
+### AZ CLI
+
 Before you start, you need to install Azure CLI according to the official [documentation](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
 
 Use the `az login` command to login to your Azure subscription.
 
-Next, to start working with the module, you need to initialize terraform.
+### asdf and direnv
+
+All these tools must be installed and configured according to their official documentation.
+
+- [asdf](https://asdf-vm.com/) -  manages multiple runtime versions;
+- [direnv](https://direnv.net/) - augments existing shells with a new feature that can load and unload environment variables.
+
+### Terraform
+
+The suggested Terraform version is in the [.tool-versions](.tool-versions) file.
+To install is, simply execute
+
+```bash
+asdf install terraform
+```
+
+## Usage
+
+```hcl
+module "module_name" {
+  source  = "../../"
+
+  # Example variables
+}
+```
+
+## Terraforming infrastructure
+
+To start working with the module, you need to initialize terraform.
 
 ```shell
 terraform init
@@ -37,31 +71,3 @@ Do you want to perform these actions?
 ```
 
 Type `yes` to approve and let the magic happen.
-
-<!-- BEGIN_TF_DOCS -->
-## Requirements
-
-No requirements.
-
-## Providers
-
-No providers.
-
-## Modules
-
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_module_name"></a> [module\_name](#module\_module\_name) | ../../ | n/a |
-
-## Resources
-
-No resources.
-
-## Inputs
-
-No inputs.
-
-## Outputs
-
-No outputs.
-<!-- END_TF_DOCS -->
