@@ -1,9 +1,12 @@
 # variable "variable_name" {
-#   default = 1
-#   type    = number
+#	  description = "variable description"
+#   type        = number
+#   default     = 1
 # }
 
-# variable "another_variable_name" {
-#   default = "c5.xlarge"
-#   type    = string
+# variable "variable_password" {
+#	  description = "variable description"
+#   type        = string
+#   sensitive   = true
+#   default     = "abc"
 # }
