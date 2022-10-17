@@ -4,12 +4,8 @@ formatter: markdown table
 version: ">= 0.16.0, < 1.0.0"
 
 output:
-  file: terraform_module.md
+  file: docs/terraform_module.md
   mode: inject
-  template: |-
-    <!-- BEGIN_TF_DOCS -->
-    {{ .Content }}
-    <!-- END_TF_DOCS -->
 
 sort:
   enabled: true
