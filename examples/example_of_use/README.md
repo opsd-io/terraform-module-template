@@ -20,7 +20,7 @@ All these tools must be installed and configured according to their official doc
 ### Terraform
 
 The suggested Terraform version is in the [.tool-versions](.tool-versions) file.
-To install is, simply execute
+To install it, simply execute
 
 ```bash
 asdf install terraform
