@@ -4,7 +4,7 @@ formatter: markdown table
 version: ">= 0.16.0, < 1.0.0"
 
 output:
-  file: README.md
+  file: terraform_module.md
   mode: inject
   template: |-
     <!-- BEGIN_TF_DOCS -->
