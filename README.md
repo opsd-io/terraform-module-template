@@ -15,17 +15,13 @@ module "module_name" {
   source  = "github.com/opsd-io/module_name"
   version = ">= 0.1.0"
 
-  # Example variables
+  # Variables
+  variable_name     = foo
+  variable_password = bar
 }
 ```
 
 **IMPORTANT**: Make sure not to pin to master because there may be breaking changes between releases.
-
-You can find more example [here](examples).
-
-## Related modules
-
-The list of related modules.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -54,6 +50,14 @@ No inputs.
 
 No outputs.
 <!-- END_TF_DOCS -->
+
+## Examples of usage
+
+Do you want to see how the module works? See all the [usage examples](examples).
+
+## Related modules
+
+The list of related modules (if present).
 
 ## Contributing
 
