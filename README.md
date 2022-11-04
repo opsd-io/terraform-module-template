@@ -23,8 +23,6 @@ module "module_name" {
 
 **IMPORTANT**: Make sure not to pin to master because there may be breaking changes between releases.
 
-## Module documentation
-
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
