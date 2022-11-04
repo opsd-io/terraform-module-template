@@ -41,14 +41,22 @@ repos:
     rev: v1.75.0 # Get the latest from: https://github.com/antonbabenko/pre-commit-terraform/releases
     hooks:
       - id: terraform_fmt
+        name: terraform fmt
+        description: Checks if the terraform code format is valid.
         stages: [commit]
       - id: terraform_tflint
+        name: terraform tflint
+        description: Automatic terraform linting.
         stages: [commit]
         exclude: (examples)
       - id: terraform_validate
+        name: terraform validate
+        description: Terraform code validator.
         stages: [commit]
         exclude: (examples)
       - id: terraform_docs
+        name: terraform docs
+        description: Generates terraform documentation.
         args:
           - --args=--config=.terraform-docs.yml
         stages: [commit]
