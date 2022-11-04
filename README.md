@@ -23,8 +23,6 @@ module "module_name" {
 
 **IMPORTANT**: Make sure not to pin to master because there may be breaking changes between releases.
 
-You can find more examples [here](examples).
-
 ## Module documentation
 
 <!-- BEGIN_TF_DOCS -->
@@ -55,9 +53,13 @@ No inputs.
 No outputs.
 <!-- END_TF_DOCS -->
 
+## Examples of usage
+
+Do you want to see how the module works? See all the [usage examples](examples).
+
 ## Related modules
 
-The list of related modules.
+The list of related modules (if present).
 
 ## Contributing
 
