@@ -51,14 +51,19 @@ pre-commit 2.20.0
 
 The full packages list can be found in the [.tool-versions](.tool-versions) file.
 
-To install required tools in proper versions, run the command as in the example below
+Before we install the tools, we need to add the plugins:
+
+```shell
+asdf plugin add terraform
+asdf plugin add terraform-docs
+asdf plugin add tflint
+asdf plugin add pre-commit
+```
+
+To install required tools, run the command as in the example below
 
 ```shell
 % asdf install
-terraform 1.2.9 is already installed
-pre-commit 2.20.0 is already installed
-terraform-docs 0.16.0 is already installed
-tflint 0.40.0 is already installed
 ```
 **Notice**: the output will vary; this is just an example.
 
