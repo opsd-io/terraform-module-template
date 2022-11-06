@@ -65,7 +65,6 @@ To install required tools, run the command as in the example below
 ```shell
 asdf install
 ```
-**Notice**: the output will vary; this is just an example.
 
 **Important**: Please keep in mind the versions or tools themselves might change, so it is advised to rerun `asdf install` command after pulling from git.
 
