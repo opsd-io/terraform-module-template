@@ -63,7 +63,7 @@ asdf plugin add pre-commit
 To install required tools, run the command as in the example below
 
 ```shell
-% asdf install
+asdf install
 ```
 **Notice**: the output will vary; this is just an example.
 
