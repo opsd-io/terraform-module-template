@@ -61,7 +61,7 @@ The list of related modules (if present).
 
 ## Contributing
 
-If you are interested in contributing to the project, see see our [guide](CONTRIBUTING.md).
+If you are interested in contributing to the project, see see our [guide](https://github.com/opsd-io/contribution).
 
 ## Support
 
