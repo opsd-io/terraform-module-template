@@ -24,3 +24,6 @@
 **/.CFUserTextEncoding
 **/.Trash/
 **/$RECYCLE.BIN/
+
+## direnv local store
+.direnv/
