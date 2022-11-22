@@ -25,5 +25,6 @@
 **/.Trash/
 **/$RECYCLE.BIN/
 
-## direnv local store
-.direnv/
+## direnv
+/.envrc.private
+/.direnv/
