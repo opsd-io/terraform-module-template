@@ -15,9 +15,3 @@ terraform {
     # }
   }
 }
-
-# provider "azurerm" {}
-
-# provider "aws" {}
-
-# provider "github" {}
