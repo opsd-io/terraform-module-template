@@ -12,12 +12,11 @@ What does the module provide?
 
 ```hcl
 module "module_name" {
-  source  = "github.com/opsd-io/module_name"
-  version = ">= 0.1.0"
+  source  = "github.com/opsd-io/module_name?ref=v0.0.1"
 
   # Variables
-  variable_name     = foo
-  variable_password = bar
+  variable_1 = "foo"
+  variable_2 = "bar"
 }
 ```
 
