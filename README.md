@@ -1,4 +1,5 @@
-<a href="https://www.opsd.io" target="_blank"><img alt="OPSd" src=".github/img/OPSD_logo.svg" width="180px"></a>
+![OPSd-logo](https://raw.githubusercontent.com/opsd-io/terraform-module-template/update-tools/.github/img/opsd-github-repo-light-mode.svg#gh-light-mode-only)
+![OPSd-logo](https://raw.githubusercontent.com/opsd-io/terraform-module-template/update-tools/.github/img/opsd-github-repo-dark-mode.svg#gh-dark-mode-only)
 
 Meet **OPSd**. The unique and effortless way of managing cloud infrastructure.
 
