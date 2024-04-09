@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://www-opsd-io.s3.eu-central-1.amazonaws.com/OPSdiy/OPSdiy-Medium-drk-slogan.png">
   <source media="(prefers-color-scheme: light)" srcset="https://www-opsd-io.s3.eu-central-1.amazonaws.com/OPSdiy/OPSdiy-Medium-lgt-slogan.png">
-  <img alt="OPSdiy - the effortless way of managing cloud infrastructure." src="https://www-opsd-io.s3.eu-central-1.amazonaws.com/OPSdiy/OPSdiy-Medium-lgt-slogan.png" width="400">
+  <img alt="OPSdiy - the effortless way of managing cloud infrastructure." src="https://www-opsd-io.s3.eu-central-1.amazonaws.com/OPSdiy/OPSdiy-Medium-lgt-slogan.png" width="500">
 </picture>
 
 # terraform-module-template
