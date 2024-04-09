@@ -2,8 +2,8 @@ name: Bug report
 description: File a bug/issue
 title: "[BUG]: "
 labels: ["bug"]
-assignees:
-  - OPSdiyBot
+# assignees:
+#   - OPSdiyBot
 body:
 - type: checkboxes
   attributes:
