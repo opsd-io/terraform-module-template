@@ -2,6 +2,8 @@ name: Feature request
 description: Suggest new functionality
 title: "[FEATURE]: "
 labels: ["enhancement"]
+assignees:
+  - OPSdiyBot
 body:
 - type: checkboxes
   attributes:
