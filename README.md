@@ -14,12 +14,12 @@ What does the module provide?
 
 ```hcl
 module "module_name" {
-  source  = "github.com/opsd-io/module_name?ref=v0.0.1"
+  source = "github.com/opsd-io/terraform-module-template?ref=VERSION"
 
-  # Variables
-  variable_1 = "foo"
-  variable_2 = "bar"
+  name = "module-template"
+  size = 9000
 }
+
 ```
 
 **IMPORTANT**: Make sure not to pin to master because there may be breaking changes between releases.
@@ -29,11 +29,13 @@ module "module_name" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.7 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.5 |
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_terraform"></a> [terraform](#provider\_terraform) | n/a |
 
 ## Modules
 
@@ -41,15 +43,25 @@ No modules.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [terraform_data.main](https://registry.terraform.io/providers/hashicorp/terraform/latest/docs/resources/data) | resource |
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_name"></a> [name](#input\_name) | A name for the test resource. | `string` | n/a | yes |
+| <a name="input_parent_id"></a> [parent\_id](#input\_parent\_id) | The ID of the parent resource. Change will trigger a recreation. | `string` | `null` | no |
+| <a name="input_size"></a> [size](#input\_size) | A size for the test resource in MiB. | `number` | `256` | no |
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_byte_size"></a> [byte\_size](#output\_byte\_size) | The size of the resource, in bytes. |
+| <a name="output_full_name"></a> [full\_name](#output\_full\_name) | The full name of the resource. |
+| <a name="output_id"></a> [id](#output\_id) | A string value unique to the resource instance. |
 <!-- END_TF_DOCS -->
 
 ## Examples of usage
