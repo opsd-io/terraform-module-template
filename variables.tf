@@ -1,12 +1,17 @@
-# variable "variable_name" {
-#	  description = "variable description"
-#   type        = number
-#   default     = 1
-# }
+variable "name" {
+  description = "A name for the test resource."
+  type        = string
+  nullable    = false
+}
 
-# variable "variable_password" {
-#	  description = "variable description"
-#   type        = string
-#   sensitive   = true
-#   default     = "abc"
-# }
+variable "parent_id" {
+  description = "The ID of the parent resource. Change will trigger a recreation."
+  type        = string
+  default     = null
+}
+
+variable "size" {
+  description = "A size for the test resource in MiB."
+  type        = number
+  default     = 256
+}
