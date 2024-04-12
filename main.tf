@@ -1,24 +1,36 @@
 terraform {
-  required_version = ">= 1.5.7"
+  required_version = ">= 1.5.5"
 
   required_providers {
-    #    aws = {
-    #      source  = "hashicorp/aws"
-    #      version = ">= 5.44.0"
-    #    }
-    #    azurerm = {
-    #      source  = "hashicorp/azurerm"
-    #      version = ">= 3.98.0"
-    #    }
-    #    digitalocean = {
-    #      source  = "digitalocean/digitalocean"
-    #      version = ">= 2.36.0"
-    #    }
-    #    github = {
-    #      source  = "integrations/github"
-    #      version = ">= 6.2.1"
-    #    }
+    # aws = {
+    #   source  = "hashicorp/aws"
+    #   version = ">= 5.0.0"
+    # }
+    # azurerm = {
+    #   source  = "hashicorp/azurerm"
+    #   version = ">= 3.0.0"
+    # }
+    # digitalocean = {
+    #   source  = "digitalocean/digitalocean"
+    #   version = ">= 2.0.0"
+    # }
+    # github = {
+    #   source  = "integrations/github"
+    #   version = ">= 6.0.0"
+    # }
+    # vault = {
+    #   source  = "hashicorp/vault"
+    #   version = ">= 3.0.0"
+    # }
   }
 }
 
-# TODO: Add resources here.
+resource "terraform_data" "main" {
+  triggers_replace = {
+    parent_id = var.parent_id
+  }
+  input = {
+    full_name = upper(var.name),
+    byte_size = var.size * 1024 * 1024,
+  }
+}
